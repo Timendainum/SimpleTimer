@@ -1,6 +1,6 @@
-#include "Timer.h"
+#include "SimpleTimer.h"
 
-void Timer::init()
+void SimpleTimer::init()
 {
 	//start time
 	bootTime = millis();
@@ -8,24 +8,24 @@ void Timer::init()
 }
 
 //This should be called every tick
-void Timer::update()
+void SimpleTimer::update()
 {
   lastTime = time;
   time = millis();
   elapsedTick = time - lastTime;
 }
 
-unsigned long Timer::getTime()
+unsigned long SimpleTimer::getTime()
 {
 	return time;
 }
-unsigned long Timer::getBootTime()
+unsigned long SimpleTimer::getBootTime()
 {
 	return bootTime;
 }
-unsigned long Timer::getElapsedTick()
+unsigned long SimpleTimer::getElapsedTick()
 {
 	return elapsedTick;
 }
 
-Timer timer;
+SimpleTimer simpleTimer;

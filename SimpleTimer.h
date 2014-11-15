@@ -1,9 +1,9 @@
-#ifndef __TIMER_H__
-#define __TIMER_H__
+#ifndef __SIMPLETIMER_H__
+#define __SIMPLETIMER_H__
 
 #include <Arduino.h>
 
-class Timer
+class SimpleTimer
 {
   private:
   	unsigned long time, lastTime, bootTime, elapsedTick;
@@ -16,6 +16,6 @@ class Timer
   	unsigned long getElapsedTick();
 };
 
-extern Timer timer;
+extern SimpleTimer simpleTimer;
 
 #endif
