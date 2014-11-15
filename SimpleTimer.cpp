@@ -2,6 +2,7 @@
 
 void SimpleTimer::init()
 {
+	Serial.println("Init timer...");
 	//start time
 	bootTime = millis();
 	time = bootTime;
