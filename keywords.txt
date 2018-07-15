@@ -2,16 +2,16 @@
 # Datatypes (KEYWORD1)
 #######################################
 
-SimpleTimer			KEYWORD1
+SimpleTimer	KEYWORD1
 
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
 
-init			KEYWORD2
-update			KEYWORD2
-getTime			KEYWORD2
-getBootTime		KEYWORD2
+init	KEYWORD2
+update	KEYWORD2
+getTime	KEYWORD2
+getBootTime	KEYWORD2
 getElapsedTick	KEYWORD2
 
 #######################################
